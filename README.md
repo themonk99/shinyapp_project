@@ -1,11 +1,10 @@
 # shinyapp_project
 Homicide Rates vs Electoral Vote Allocation
 RHays Shiny Application and Reproducible Pitch
-Homicide Rates and Electoral Vote Allocation
+
 ========================================================
 author: R Hays
 date: 03032021
-
 
 Assignment Details
 ========================================================
@@ -41,5 +40,5 @@ National Archives Electoral Vote Data ("https://www.archives.gov/electoral-colle
 
 Shiny_APP location on ShinyApps: https://rhays.shinyapps.io/RHays_Homicide_Rates_vs_Electoral_Votes/
 
-RStudio Presentation (pitch) Slides: 
-Shiny App ui.R and server.R: 
+RStudio Presentation (pitch) Slides: https://rpubs.com/TheMonk/homiciderates
+ 
