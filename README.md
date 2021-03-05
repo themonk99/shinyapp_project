@@ -36,6 +36,7 @@ and the actual number of homicides
 Data Sources and Server Configuration
 ========================================================
 CDC Homicide Data ("https://www.cdc.gov/nchs/pressroom/sosmap/homicide_mortality/homicide.html")
+
 National Archives Electoral Vote Data ("https://www.archives.gov/electoral-college/2020")
 
 Shiny_APP location on ShinyApps: https://rhays.shinyapps.io/RHays_Homicide_Rates_vs_Electoral_Votes/
