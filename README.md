@@ -40,5 +40,6 @@ CDC Homicide Data ("https://www.cdc.gov/nchs/pressroom/sosmap/homicide_mortality
 National Archives Electoral Vote Data ("https://www.archives.gov/electoral-college/2020")
 
 Shiny_APP location on ShinyApps: https://rhays.shinyapps.io/RHays_Homicide_Rates_vs_Electoral_Votes/
+
 RStudio Presentation (pitch) Slides: 
 Shiny App ui.R and server.R: 
