@@ -3,8 +3,6 @@
 Homicide Rates vs Electoral Vote Allocation
 RHays Shiny Application and Reproducible Pitch
 
-========================================================
-author: R Hays
 date: 03032021
 
 Assignment Details
