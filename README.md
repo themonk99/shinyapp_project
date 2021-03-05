@@ -21,7 +21,7 @@ It must contained some embedded R code that gets run when slidifying the documen
 
 Shiny Application Summary
 ========================================================
-Based on data compiled by the CDC (dated noted on next slide), the average national homicide
+Based on data compiled by the CDC (data noted on next slide), the average national homicide
 rate for 2019 was 6.16% per 100,000. The results of the 2020 Presidential Election
 allocated each state's electoral votes to one of the two political parties - Republican, Democratic.(US Archives data noted on next slide).
 
