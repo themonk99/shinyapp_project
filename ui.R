@@ -7,11 +7,13 @@ homiciderates <- read_excel("Homicide Rates vs Election Results.xlsx",
                               skip = 1)
 fluidPage(
      titlePanel("2019 Homicide Rates compared to 2020 Electoral Vote Allocation"),
-            ##Generate a row with a sidebar
+     
+                ##Generate a row with a sidebar
                 sidebarLayout(      
-                     # Define the sidebar with one input
-                         sidebarPanel(
-                            selectInput("instate", "Select a State", choices = homiciderates$STATE)
+                         sidebarPanel(p(strong("Documentation:",style="color:red"), 
+                                a("User Help Page",href="https://rpubs.com/TheMonk/homiciderates")),
+                                selectInput("instate", "Select a State to see combined data from two sources, 
+                                        CDC and National Archives", choices = homiciderates$STATE)
                             ),
                       
         ## Create a table output

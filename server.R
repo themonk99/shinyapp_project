@@ -1,4 +1,3 @@
-
 library(shiny)
 library(readxl)
 homiciderates <- read_excel("Homicide Rates vs Election Results.xlsx", 
@@ -8,7 +7,7 @@ homiciderates <- read_excel("Homicide Rates vs Election Results.xlsx",
                             skip = 1)
 
 # Define a server for the Shiny app
-function(input, output) {
+server <- function(input, output) {
     
     # populate the area created for the reactive table
     output$ratetable <- renderTable({
@@ -17,3 +16,4 @@ function(input, output) {
         stateFilter <- subset(homiciderates, homiciderates$STATE == input$instate) 
     })
 }
+
